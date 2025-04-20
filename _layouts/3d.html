@@ -12,11 +12,24 @@
             height: 100vh;
             position: relative;
         }
+        #loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 1.2em;
+            font-family: Arial, sans-serif;
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div id="3d-container"></div>
+    <div id="loading">加载中...</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
     <script src="{{ site.baseurl }}/assets/js/3d-scene.js"></script>
 </body>
 </html> 
