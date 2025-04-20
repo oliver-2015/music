@@ -4,6 +4,10 @@ gem "jekyll", "~> 3.9.3"
 gem "webrick", "~> 1.8"
 gem "kramdown-parser-gfm"
 
+# 添加 three.js 支持
+gem 'jekyll-assets'
+gem 'sprockets', '~> 3.7'
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.8"

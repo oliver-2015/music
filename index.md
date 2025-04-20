@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Welcome
+layout: 3d
+title: 3D Welcome
 ---
 
 # Welcome to My Site
